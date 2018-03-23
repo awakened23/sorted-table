@@ -1,0 +1,34 @@
+@import "common.css";
+
+/* Dashboard.css */
+.dataTable{
+  width: 100%;
+}
+
+.sortableColumn{
+  position: relative;
+  cursor: pointer;
+}
+
+.caretUp{
+  position: absolute;
+  top: -1px;
+  color: $colorPaleGrey;
+}
+
+.caretDown{
+  position: absolute;
+  bottom: -3px;
+  color: $colorPaleGrey;
+}
+
+.active{
+  display: inline;
+  color: $colorGrey;
+}
+.inactive{
+  display: none;
+}
+.multi{
+  color: $colorOrange;
+}
